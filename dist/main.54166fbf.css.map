@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/main.scss"],"names":[],"mappings":"AAIA;EACI,OAJS;;AAKT;EACI,OALc","file":"main.54166fbf.css","sourceRoot":"../src","sourcesContent":["\n$link-color: #ff526f;\n$link-darkened-color: #ad001d;\n\na{\n    color: $link-color;\n    &:hover {\n        color: $link-darkened-color;\n    }\n}"]}

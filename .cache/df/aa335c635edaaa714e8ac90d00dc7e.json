@@ -1,0 +1,1 @@
+{"id":"hello.html","dependencies":[],"generated":{"html":"<button class=\"button\">\n    <div class=\"button__text\">Button</div>\n  </button><div>test posthtml-include {{title}} </div>"},"sourceMaps":null,"error":null,"hash":"9b1398d7d33256e1ae07a31fd3d1114c","cacheData":{}}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main-tailwind.css">
+    <link rel="stylesheet" href="./css/main.scss">
+    <script>
+        window.onload = () => {
+            var btn = document.getElementById("btn");
+            btn.onclick = () => {
+                var ths = document.getElementsByName("janet")
+
+                for (var i=0;i<ths.length; i++){
+                    alert(ths[i].className)
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="text-3xl font-bold underline text-center">test</div>
+    <a href="#">check me</a>
+    <table>
+        <tr>
+            <th class="kkth">1</th>
+            <th class="kkth">2</th>
+            <th class="kkth">3</th>
+            <th class="kkth">4</th>
+            <th class="kkth">5</th>
+            <th class="kkth">6</th>
+        </tr>
+    </table>
+    <input type="text" name="janet" value="123" class="col col-6">
+    <input type="text" name="janet" value="456" class="row optical">
+    <input type="text" name="janet" value="789" class="hello test">
+    <button id="btn">button</button>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+
+$link-color: #ff526f;
+$link-darkened-color: #ad001d;
+
+a{
+    color: $link-color;
+    &:hover {
+        color: $link-darkened-color;
+    }
+}
